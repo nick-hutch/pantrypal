@@ -1,0 +1,95 @@
+body {
+    background-image: url(../images/carrots-food-fresh-616404.jpg);
+    background-size: 100%;
+}
+
+.headerText {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.userContainerLeft {
+    width: 100%;
+    text-align: left;
+    margin-left: 100px;
+}
+
+.userContainerRight {
+    width: 100%;
+    text-align: left;
+    margin-left: 100px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+/* Create two unequal columns that floats next to each other */
+
+.column {
+    float: left;
+    padding: 10px;
+}
+
+.left {
+    width: 35%;
+    margin-left: 150px;
+}
+
+.right {
+    width: 35%;
+}
+
+
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.suggestedButton {
+    background-color: #008CBA;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.vjs-comment-list {
+    list-style-type: none;
+    position: relative;
+    background: #fff;
+    font-size: 24px;
+    position: relative;
+    max-width: 500px;
+    -moz-user-select: text !important;
+    margin-bottom: 10px;
+    font-family: "Times New Roman", Times, Arial, sans-serif !important;
+    border-right:  solid 5px #118C4E;
+}
+
+.comment-user-name{
+
+  top:0;
+  left:80px;
+  font-size: 18px;
+  font-family: "Times New Roman", Times, Arial, sans-serif !important;
+  font-weight: bold;
+
+}
+
+.comment-id {
+    top: 0;
+    left: 100px;
+    font-size: 18px;
+    color: red;
+    font-family: "Times New Roman", Times, Arial, sans-serif !important;
+}
+
