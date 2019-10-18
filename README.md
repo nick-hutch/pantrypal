@@ -1,7 +1,9 @@
 # pantrypal
 Senior Project 2019
 
-This web application allows users to search for recipes from the spoonacular database.
+No Longer working, need api key for spoonacular (rapid-api), a database and a server to handle the rest api.
+
+This web application allowed users to search for recipes from the spoonacular database.
 
 The application can be used as an anonymous user, however to take advantage of all of the sites capabilities
 the user must create an account.
